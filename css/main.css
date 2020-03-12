@@ -1,52 +1,33 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  background-color: #F89B56;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f89b56;
   margin: 0;
   padding: 0;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 .blondie {
-  font-family: 'Cinzel', serif;
-  font-weight: normal;
-  color: #FDED1E;
+  font-family: "Cinzel", serif;
+  color: #fded1e;
   display: inline-block;
 }
 
 .quotes {
-  font-family: 'Montserrat', serif;
-  font-weight: normal;
+  font-family: "Montserrat", serif;
 }
 
 .bb {
-  background-color: #231F20;
+  background-color: #231f20;
   padding: .5rem;
 }
 
 .yb {
-  background-color: #FDED1E;
+  background-color: #fded1e;
   padding: .5rem;
 }
 
 .two {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  color: #231F20;
+  font-family: "Montserrat", sans-serif;
+  color: #231f20;
   display: inline-block;
 }
 

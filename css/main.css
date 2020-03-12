@@ -1,36 +1,39 @@
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   background-color: #f89b56;
   margin: 0;
   padding: 0;
 }
 
 .blondie {
-  font-family: "Cinzel", serif;
+  font-family: Cinzel, serif;
   color: #fded1e;
   display: inline-block;
 }
 
 .quotes {
-  font-family: "Montserrat", serif;
-}
-
-.bb {
-  background-color: #231f20;
-  padding: .5rem;
-}
-
-.yb {
-  background-color: #fded1e;
-  padding: .5rem;
+  font-family: Montserrat, serif;
+  position: absolute;
 }
 
 .two {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #231f20;
   display: inline-block;
 }
 
 .grid-middle {
   margin: 0;
+}
+
+.island {
+  background-color: #231f20;
+}
+
+.island-1-2 {
+  background-color: #fded1e;
+}
+
+.noq {
+  position: fixed;
 }

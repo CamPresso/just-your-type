@@ -1,8 +1,6 @@
 html {
   font-family: Montserrat, sans-serif;
   background-color: #f89b56;
-  margin: 0;
-  padding: 0;
 }
 
 .blondie {
@@ -13,7 +11,13 @@ html {
 
 .quotes {
   font-family: Montserrat, serif;
+  color: #fded1e;
   position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: translateX(-60%);
+  transform: translateY(-35%);
 }
 
 .two {
@@ -22,18 +26,14 @@ html {
   display: inline-block;
 }
 
-.grid-middle {
-  margin: 0;
+.content {
+  transform: translateY(30%);
 }
 
-.island {
-  background-color: #231f20;
-}
-
-.island-1-2 {
+.ybox {
   background-color: #fded1e;
 }
 
-.noq {
-  position: fixed;
+.bbox {
+  background-color: #231f20;
 }

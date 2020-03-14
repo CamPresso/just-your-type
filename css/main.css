@@ -52,8 +52,4 @@ html {
     display: inline-block;
   }
 
-  .content {
-    transform: translateX(-60%);
-  }
-
 }
